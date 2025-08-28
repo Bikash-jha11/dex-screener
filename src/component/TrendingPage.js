@@ -66,7 +66,7 @@ const TrendingPage = () => {
 
       <FiltersModal
         isOpen={isFiltersModalOpen}
-        onClose={() => setFiltersModalOpen(false)}
+        onClose={() => setFiltersModalOpen(true)}
         onApplyFilters={handleApplyFilters}
       />
     </div>
